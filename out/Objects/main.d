@@ -9,4 +9,6 @@
 .\objects\main.o: ..\src\ADC.h
 .\objects\main.o: F:\keil5\anzhuang\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: F:\keil5\anzhuang\ARM\ARMCC\Bin\..\include\string.h
-.\objects\main.o: ..\src\oled.h
+.\objects\main.o: ..\src\OLED.h
+.\objects\main.o: ..\src\KEY.h
+.\objects\main.o: ..\src\Delay.h

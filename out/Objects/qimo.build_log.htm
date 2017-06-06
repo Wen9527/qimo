@@ -28,42 +28,59 @@ Project File Date:  06/01/2017
 *** Using Compiler 'V5.06 update 2 (build 183)', folder: 'F:\keil5\anzhuang\ARM\ARMCC\Bin'
 Rebuild target 'qimo'
 compiling ADC.c...
-..\src\ADC.c(11): warning:  #1-D: last line of file ends without a newline
-  }
-..\src\ADC.c: 1 warning, 0 errors
-compiling main.c...
-..\src\UART.h(4): warning:  #1-D: last line of file ends without a newline
-  void UART_SendStr(char *pucStr);
-..\src\oled.h(85): warning:  #1-D: last line of file ends without a newline
-  #endif  
-..\src\main.c(14): warning:  #1-D: last line of file ends without a newline
-  }
-..\src\main.c: 3 warnings, 0 errors
 compiling UART.c...
 ..\src\UART.h(4): warning:  #1-D: last line of file ends without a newline
   void UART_SendStr(char *pucStr);
 ..\src\UART.c(37): warning:  #1-D: last line of file ends without a newline
   }
 ..\src\UART.c: 2 warnings, 0 errors
-assembling startup_LPC11xx.s...
+compiling main.c...
+..\src\UART.h(4): warning:  #1-D: last line of file ends without a newline
+  void UART_SendStr(char *pucStr);
+..\src\OLED.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif  
+..\src\KEY.h(2): warning:  #1295-D: Deprecated declaration Keyinit - give arg types
+  void Keyinit();
+..\src\KEY.h(3): warning:  #1-D: last line of file ends without a newline
+  void PIOINT3_IRQHandler();
+..\src\KEY.h(3): warning:  #1295-D: Deprecated declaration PIOINT3_IRQHandler - give arg types
+  void PIOINT3_IRQHandler();
+..\src\Delay.h(3): warning:  #1-D: last line of file ends without a newline
+  void delay_ms(int ms); 
+..\src\main.c(70): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\main.c: 7 warnings, 0 errors
+compiling KEY.c...
+..\src\KEY.h(2): warning:  #1295-D: Deprecated declaration Keyinit - give arg types
+  void Keyinit();
+..\src\KEY.h(3): warning:  #1-D: last line of file ends without a newline
+  void PIOINT3_IRQHandler();
+..\src\KEY.h(3): warning:  #1295-D: Deprecated declaration PIOINT3_IRQHandler - give arg types
+  void PIOINT3_IRQHandler();
+..\src\oled.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif  
+..\src\KEY.c: 4 warnings, 0 errors
 compiling OLED.c...
 ..\src\OLED.h(85): warning:  #1-D: last line of file ends without a newline
   #endif  
-..\src\OLEDFONT.h(215): warning:  #1-D: last line of file ends without a newline
+..\src\OLEDFONT.h(222): warning:  #1-D: last line of file ends without a newline
   #endif
 ..\src\delay.h(3): warning:  #1-D: last line of file ends without a newline
   void delay_ms(int ms); 
-..\src\OLED.c(279): warning:  #1-D: last line of file ends without a newline
+..\src\OLED.c(278): warning:  #1-D: last line of file ends without a newline
   }  
 ..\src\OLED.c: 4 warnings, 0 errors
 compiling Delay.c...
 ..\src\Delay.h(3): warning:  #1-D: last line of file ends without a newline
   void delay_ms(int ms); 
-..\src\Delay.c: 1 warning, 0 errors
+..\src\Delay.c(25): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\Delay.c: 2 warnings, 0 errors
+assembling startup_LPC11xx.s...
 compiling system_LPC11xx.c...
 linking...
-Program Size: Code=1788 RO-data=224 RW-data=8 ZI-data=608  
-".\Objects\qimo.axf" - 0 Error(s), 11 Warning(s).
+Program Size: Code=6654 RO-data=2426 RW-data=364 ZI-data=628  
+".\Objects\qimo.axf" - 0 Error(s), 19 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -91,7 +108,7 @@ Package Vendor: Keil
    * Component: Keil::Device:Startup:1.0.0
       Source file:   Device\Source\ARM\startup_LPC11xx.s
       Source file:   Device\Source\system_LPC11xx.c
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

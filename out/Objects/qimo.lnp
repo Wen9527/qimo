@@ -4,6 +4,7 @@
 ".\objects\uart.o"
 ".\objects\oled.o"
 ".\objects\delay.o"
+".\objects\key.o"
 ".\objects\startup_lpc11xx.o"
 ".\objects\system_lpc11xx.o"
 --strict --scatter ".\Objects\qimo.sct"
