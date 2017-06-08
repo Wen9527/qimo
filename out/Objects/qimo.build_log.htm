@@ -47,23 +47,15 @@ compiling main.c...
   void PIOINT3_IRQHandler();
 ..\src\Delay.h(3): warning:  #1-D: last line of file ends without a newline
   void delay_ms(int ms); 
-..\src\main.c(70): warning:  #1-D: last line of file ends without a newline
+..\src\main.c(93): warning:  #1-D: last line of file ends without a newline
   }
-..\src\main.c: 7 warnings, 0 errors
-compiling KEY.c...
-..\src\KEY.h(2): warning:  #1295-D: Deprecated declaration Keyinit - give arg types
-  void Keyinit();
-..\src\KEY.h(3): warning:  #1-D: last line of file ends without a newline
-  void PIOINT3_IRQHandler();
-..\src\KEY.h(3): warning:  #1295-D: Deprecated declaration PIOINT3_IRQHandler - give arg types
-  void PIOINT3_IRQHandler();
-..\src\oled.h(85): warning:  #1-D: last line of file ends without a newline
-  #endif  
-..\src\KEY.c: 4 warnings, 0 errors
+..\src\main.c(15): warning:  #177-D: variable "i" was declared but never referenced
+  	uint32_t i;
+..\src\main.c: 8 warnings, 0 errors
 compiling OLED.c...
 ..\src\OLED.h(85): warning:  #1-D: last line of file ends without a newline
   #endif  
-..\src\OLEDFONT.h(222): warning:  #1-D: last line of file ends without a newline
+..\src\OLEDFONT.h(234): warning:  #1-D: last line of file ends without a newline
   #endif
 ..\src\delay.h(3): warning:  #1-D: last line of file ends without a newline
   void delay_ms(int ms); 
@@ -77,9 +69,17 @@ compiling Delay.c...
   }
 ..\src\Delay.c: 2 warnings, 0 errors
 assembling startup_LPC11xx.s...
+compiling KEY.c...
+..\src\KEY.h(2): warning:  #1295-D: Deprecated declaration Keyinit - give arg types
+  void Keyinit();
+..\src\KEY.h(3): warning:  #1295-D: Deprecated declaration PIOINT3_IRQHandler - give arg types
+  void PIOINT3_IRQHandler();
+..\src\oled.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif  
+..\src\KEY.c: 4 warnings, 0 errors
 compiling system_LPC11xx.c...
 linking...
-Program Size: Code=6654 RO-data=2426 RW-data=364 ZI-data=628  
+Program Size: Code=7664 RO-data=2536 RW-data=588 ZI-data=628  
 ".\Objects\qimo.axf" - 0 Error(s), 19 Warning(s).
 
 <h2>Software Packages used:</h2>

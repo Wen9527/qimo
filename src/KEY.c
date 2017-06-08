@@ -50,6 +50,10 @@ extern uint8_t datamin;
  if((LPC_GPIO3->MIS &(1<<2))==(1<<2))//如果是P3.2引起的中断
  {
 	 OLED_Clear();
+	 OLED_ShowCHinese(0,6,5);
+	 OLED_ShowCHinese(20,6,6);
+	 OLED_ShowCHinese(40,6,7);
+	 OLED_ShowCHinese(60,6,8);
    LPC_GPIO3->IC =(1<<2);
  }
 	 

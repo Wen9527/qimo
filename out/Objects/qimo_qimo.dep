@@ -1,5 +1,5 @@
 Dependencies for Project 'qimo', Target 'qimo': (DO NOT MODIFY !)
-F (..\src\main.c)(0x59367503)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Administrator\Desktop\qimo\out\RTE-I F:\keil5\anzhuang\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I F:\keil5\anzhuang\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\src\main.c)(0x5936A9BC)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Administrator\Desktop\qimo\out\RTE-I F:\keil5\anzhuang\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I F:\keil5\anzhuang\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (F:\keil5\anzhuang\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
 I (F:\keil5\anzhuang\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
 I (F:\keil5\anzhuang\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
@@ -38,7 +38,7 @@ I (F:\keil5\anzhuang\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compile
 I (F:\keil5\anzhuang\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
 I (F:\keil5\anzhuang\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
 I (F:\keil5\anzhuang\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
-I (..\src\OLEDFONT.h)(0x5935030C)
+I (..\src\OLEDFONT.h)(0x593693A4)
 I (..\src\delay.h)(0x5930016A)
 F (..\src\Delay.c)(0x5934E781)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Administrator\Desktop\qimo\out\RTE-I F:\keil5\anzhuang\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I F:\keil5\anzhuang\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
 I (..\src\Delay.h)(0x5930016A)
@@ -48,7 +48,7 @@ I (F:\keil5\anzhuang\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
 I (F:\keil5\anzhuang\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
 I (F:\keil5\anzhuang\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
 I (F:\keil5\anzhuang\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
-F (..\src\KEY.c)(0x59350EF3)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Administrator\Desktop\qimo\out\RTE-I F:\keil5\anzhuang\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I F:\keil5\anzhuang\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+F (..\src\KEY.c)(0x5936AA5B)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Administrator\Desktop\qimo\out\RTE-I F:\keil5\anzhuang\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I F:\keil5\anzhuang\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
 I (..\src\KEY.h)(0x5930A6FC)
 I (F:\keil5\anzhuang\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
 I (F:\keil5\anzhuang\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
