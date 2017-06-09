@@ -43,6 +43,8 @@ int main()
 	while(1)
 	{
 	  
+		
+		
 			 LPC_ADC->CR |=(1<<24);
 			 while((LPC_ADC ->DR[7]&0x80000000)==0);
 			 LPC_ADC->CR |=(1<<24);
@@ -52,6 +54,8 @@ int main()
        ulADCData=(ulADCBuf*3300)/1024;
 		   res_value=(10000*ulADCData)/(3300-ulADCData);
 		 
+		
+		
 	if((res_value<33970)&&(res_value>20310))  //0-10
 	{
 			k = 1366;
