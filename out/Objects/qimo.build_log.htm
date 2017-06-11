@@ -5,11 +5,11 @@
 <h2>Tool Versions:</h2>
 IDE-Version: ¦ÌVision V5.20.0.0
 Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: he he01, tecent, LIC=D0DX7-E505V-H8PFS-LCJKU-2ZWPH-49W8Q
+License Information: licailong Microsoft, Microsoft, LIC=----
  
 Tool Versions:
-Toolchain:       MDK-ARM Plus  Version: 5.20
-Toolchain Path:  D:\keil5\ARM\ARMCC\Bin
+Toolchain:       MDK-Lite  Version: 5.20
+Toolchain Path:  F:\keil5\anzhuang\ARM\ARMCC\Bin
 C Compiler:      Armcc.exe V5.06 update 2 (build 183)
 Assembler:       Armasm.exe V5.06 update 2 (build 183)
 Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
@@ -21,17 +21,16 @@ Target DLL:      Segger\JL2CM3.dll V2.99.20.0
 Dialog DLL:      TARMCM1.DLL V1.10.0.0
  
 <h2>Project:</h2>
-D:\keil5\dpj\qimo\out\qimo.uvprojx
+C:\Users\Administrator\Desktop\qimo\out\qimo.uvprojx
 Project File Date:  06/01/2017
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'F:\keil5\anzhuang\ARM\ARMCC\Bin'
 Rebuild target 'qimo'
-compiling ADC.c...
 compiling main.c...
 ..\src\UART.h(4): warning:  #1-D: last line of file ends without a newline
   void UART_SendStr(char *pucStr);
-..\src\OLED.h(85): warning:  #1-D: last line of file ends without a newline
+..\src\OLED.h(84): warning:  #1-D: last line of file ends without a newline
   #endif  
 ..\src\KEY.h(2): warning:  #1295-D: Deprecated declaration Keyinit - give arg types
   void Keyinit();
@@ -41,33 +40,22 @@ compiling main.c...
   void PIOINT3_IRQHandler();
 ..\src\Delay.h(3): warning:  #1-D: last line of file ends without a newline
   void delay_ms(int ms); 
-..\src\main.c(93): warning:  #1-D: last line of file ends without a newline
+..\src\main.c(91): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  	  OLED_ShowString(0,0,data);
+..\src\main.c(95): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  	  OLED_ShowString(5,2,data);
+..\src\main.c(102): warning:  #1-D: last line of file ends without a newline
   }
-..\src\main.c(15): warning:  #177-D: variable "i" was declared but never referenced
+..\src\main.c(17): warning:  #177-D: variable "i" was declared but never referenced
   	uint32_t i;
-..\src\main.c: 8 warnings, 0 errors
+..\src\main.c: 10 warnings, 0 errors
 compiling UART.c...
 ..\src\UART.h(4): warning:  #1-D: last line of file ends without a newline
   void UART_SendStr(char *pucStr);
 ..\src\UART.c(37): warning:  #1-D: last line of file ends without a newline
   }
 ..\src\UART.c: 2 warnings, 0 errors
-compiling OLED.c...
-..\src\OLED.h(85): warning:  #1-D: last line of file ends without a newline
-  #endif  
-..\src\OLEDFONT.h(234): warning:  #1-D: last line of file ends without a newline
-  #endif
-..\src\delay.h(3): warning:  #1-D: last line of file ends without a newline
-  void delay_ms(int ms); 
-..\src\OLED.c(278): warning:  #1-D: last line of file ends without a newline
-  }  
-..\src\OLED.c: 4 warnings, 0 errors
-compiling Delay.c...
-..\src\Delay.h(3): warning:  #1-D: last line of file ends without a newline
-  void delay_ms(int ms); 
-..\src\Delay.c(25): warning:  #1-D: last line of file ends without a newline
-  }
-..\src\Delay.c: 2 warnings, 0 errors
+compiling ADC.c...
 compiling KEY.c...
 ..\src\KEY.h(2): warning:  #1295-D: Deprecated declaration Keyinit - give arg types
   void Keyinit();
@@ -75,14 +63,32 @@ compiling KEY.c...
   void PIOINT3_IRQHandler();
 ..\src\KEY.h(3): warning:  #1295-D: Deprecated declaration PIOINT3_IRQHandler - give arg types
   void PIOINT3_IRQHandler();
-..\src\oled.h(85): warning:  #1-D: last line of file ends without a newline
+..\src\oled.h(84): warning:  #1-D: last line of file ends without a newline
   #endif  
-..\src\KEY.c: 4 warnings, 0 errors
+..\src\Delay.h(3): warning:  #1-D: last line of file ends without a newline
+  void delay_ms(int ms); 
+..\src\KEY.c: 5 warnings, 0 errors
+compiling Delay.c...
+..\src\Delay.h(3): warning:  #1-D: last line of file ends without a newline
+  void delay_ms(int ms); 
+..\src\Delay.c(25): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\Delay.c: 2 warnings, 0 errors
+compiling OLED.c...
+..\src\OLED.h(84): warning:  #1-D: last line of file ends without a newline
+  #endif  
+..\src\OLEDFONT.h(234): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\src\delay.h(3): warning:  #1-D: last line of file ends without a newline
+  void delay_ms(int ms); 
+..\src\OLED.c(224): warning:  #1-D: last line of file ends without a newline
+  }  
+..\src\OLED.c: 4 warnings, 0 errors
 assembling startup_LPC11xx.s...
 compiling system_LPC11xx.c...
 linking...
-Program Size: Code=7664 RO-data=2536 RW-data=588 ZI-data=628  
-".\Objects\qimo.axf" - 0 Error(s), 20 Warning(s).
+Program Size: Code=9840 RO-data=2536 RW-data=592 ZI-data=648  
+".\Objects\qimo.axf" - 0 Error(s), 23 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -99,18 +105,18 @@ Package Vendor: Keil
    * Component: Startup Version: 1.0.0
 
 <h2>Collection of Component include folders:</h2>
-  D:\keil5\dpj\qimo\out\RTE
-  D:\keil5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include
-  D:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx
+  C:\Users\Administrator\Desktop\qimo\out\RTE
+  F:\keil5\anzhuang\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include
+  F:\keil5\anzhuang\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx
 
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.0.0
 
    * Component: Keil::Device:Startup:1.0.0
-      Source file:   Device\Source\system_LPC11xx.c
       Source file:   Device\Source\ARM\startup_LPC11xx.s
-Build Time Elapsed:  00:00:06
+      Source file:   Device\Source\system_LPC11xx.c
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

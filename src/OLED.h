@@ -81,5 +81,4 @@ void OLED_ShowNum(u8 x,u8 y,u32 num,u8 len,u8 size2);          //显示数字变量
 void OLED_ShowString(u8 x,u8 y, u8 *p);	         //显示字符串	
 void OLED_Set_Pos(unsigned char x, unsigned char y);
 void OLED_ShowCHinese(u8 x,u8 y,u8 no);         //显示汉字
-void OLED_DrawBMP(unsigned char x0, unsigned char y0,unsigned char x1, unsigned char y1,unsigned char BMP[]);
 #endif  

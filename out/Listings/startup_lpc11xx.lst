@@ -360,11 +360,12 @@ ARM Macro Assembler    Page 6
               00000200 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
-ork --depend=.\objects\startup_lpc11xx.d -o.\objects\startup_lpc11xx.o -ID:\kei
-l5\dpj\qimo\out\RTE -ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include -I
-D:\keil5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx --predefine="__
-UVISION_VERSION SETA 520" --predefine="_RTE_ SETA 1" --list=.\listings\startup_
-lpc11xx.lst RTE\Device\LPC1114FBD48_301\startup_LPC11xx.s
+ork --depend=.\objects\startup_lpc11xx.d -o.\objects\startup_lpc11xx.o -IC:\Use
+rs\Administrator\Desktop\qimo\out\RTE -IF:\keil5\anzhuang\ARM\PACK\ARM\CMSIS\5.
+0.0-Beta12\CMSIS\Include -IF:\keil5\anzhuang\ARM\PACK\Keil\LPC1100_DFP\1.4.0\De
+vice\Include\LPC11xx --predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION
+ SETA 520" --predefine="_RTE_ SETA 1" --list=.\listings\startup_lpc11xx.lst RTE
+\Device\LPC1114FBD48_301\startup_LPC11xx.s
 
 
 
@@ -840,4 +841,4 @@ Symbol: __use_two_region_memory
       None
 Comment: __use_two_region_memory unused
 3 symbols
-383 symbols in table
+384 symbols in table
